@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="190dp"
+        android:layout_height="260dp"
+        android:transitionName="@string/trans"
+
+         />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textSize="17dp"
+        android:textStyle="normal"
+        android:text="Brand" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:layout_height="25dp"
+        android:text="Price" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:textSize="15dp"
+        android:text="Description" />
+</LinearLayout>
